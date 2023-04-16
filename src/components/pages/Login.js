@@ -4,18 +4,20 @@ import '../css/Login.css'
 import gql from 'graphql-tag';
 
 const GENERATE_OTP_MUTATION = gql`
-  mutation GenerateOTP($email: String!) {
-    generateOTP(email: $email) {
-      success
-      message
-    }
+  mutation GenerateOtp($email: String!) {
+    generateOTP(input: { email: $email })
   }
 `;
 
 const LOGIN_MUTATION = gql`
   mutation Login($email: String!, $otp: String!) {
-    login(email: $email, otp: $otp) {
-      accessToken
+    login(input: { email: $email, otp: $otp }) {
+      id
+      name
+      isAdmin
+      roleID
+      orgUID
+      sessionToken
     }
   }
 `;

@@ -25,7 +25,7 @@ function HomePage() {
                         <a href="/login">
                             <button type="button" className="btn btn-danger text-white">SignIn with OTP</button>
                         </a>
-                        <a href="/userlist">
+                        <a href="/defaultlist">
                             <button type="button" className="btn btn-success text-white">Display List</button>
                         </a>
                     </div>
