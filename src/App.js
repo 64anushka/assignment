@@ -11,7 +11,7 @@ import UsersList from './components/pages/UserList';
 import HomePage from './components/pages/home';
 import DefaultList from './components/pages/DefaultList';
 const client = new ApolloClient({
-  uri: 'http://172.232.70.228:8080/api/gql/query',
+  uri: 'http://172.232.70.228:8080/api/gql',
   cache: new InMemoryCache(),
 });
 

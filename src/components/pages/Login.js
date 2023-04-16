@@ -60,12 +60,12 @@ function Login() {
       
         <input type="email" value={email} onChange={handleEmailChange} className='textfield' placeholder='Email'/>
      <br/>
-      <button onClick={handleGenerateOtp} disabled={!email} className='button'>Generate OTP</button><br/>
-      {errorMessage && <p>Error: {errorMessage}</p>}
+      <button onClick={handleGenerateOtp} disabled={!email} className='button1'>Generate OTP</button><br/>
+      {errorMessage && <p style={{color:"white"}}>Error: {errorMessage}</p>}
       
         <input type="text" value={otp} onChange={handleOtpChange} className='textfield' placeholder='OTP'/>
       <br/>
-      <button onClick={handleLogin} disabled={!otp} className='button'>Login</button><br/>
+      <button onClick={handleLogin} disabled={!otp} className='button1'>Login</button><br/>
     </div>
     </center>
   );
