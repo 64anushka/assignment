@@ -1,6 +1,7 @@
 .top{
     padding: 3%;
-    margin: 2%;
+    margin-top: 2%;
+    margin-bottom: 8%;
     background-color:#343434;
     width: 40%;
     border-radius: 10px;
@@ -9,7 +10,8 @@
     .top {
       width: 95%;
       padding: 3%;
-      margin:2%;
+      margin-top:5%;
+      margin-bottom: 18%;
     }
   }
  

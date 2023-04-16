@@ -32,10 +32,7 @@ function HomePage() {
                 </div>
             </div>
             {/* ------------------------INFORMATION---------------------- */}
-            <div className="container-fluid"
-                style={
-                    {paddingTop: "2rem"}
-            }>
+            <div className="container-fluid">
                 <div className="row text-light">
                     <div className="col-lg-4 text-center">
                         <img src={Cost}

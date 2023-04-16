@@ -63,3 +63,7 @@ h1 {
 .main-header-section:hover {
     transition: all 1s ease-out;
 }
+.container-fluid{
+    padding-top: 2rem;
+    margin-bottom: 8%;
+}

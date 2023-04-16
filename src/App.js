@@ -6,6 +6,7 @@ import Login from './components/pages/Login';
 import UsersList from './components/pages/UserList';
 import HomePage from './components/pages/home';
 import DefaultList from './components/pages/DefaultList';
+import Footer from './components/pages/Footer';
 const client = new ApolloClient({uri: 'http://172.232.70.228:8080/api/gql', cache: new InMemoryCache()});
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                         </Routes>
                     </div>
                 </Router>
+                <Footer/>
                 {/* <Login /> */} </ApolloProvider>
         );
     } else {
